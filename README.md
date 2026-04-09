@@ -2,9 +2,14 @@
 
 Polymarket **arbitrage bot** for 15-minute Up/Down markets. Automates the **dump-and-hedge** strategy with configurable thresholds, stop-loss hedging, and optional simulation mode. Full credential management, CLOB order execution, and market discovery via Gamma API.
 
+**Repository:** [bobbinse/polymarket-arbitrage-trading-bot](https://github.com/bobbinse/polymarket-arbitrage-trading-bot) · [Bird-eye-pp/polymarket-arbitrage-trading-bot](https://github.com/Bird-eye-pp/polymarket-arbitrage-trading-bot) · **Markets:** [polymarket.com](https://polymarket.com)
+
 [![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
+[![GitHub bobbinse](https://img.shields.io/badge/GitHub-bobbinse-black?logo=github)](https://github.com/bobbinse/polymarket-arbitrage-trading-bot)
+[![GitHub Bird-eye-pp](https://img.shields.io/badge/GitHub-Bird--eye--pp-black?logo=github)](https://github.com/Bird-eye-pp/polymarket-arbitrage-trading-bot)
+[![Polymarket](https://img.shields.io/badge/Polymarket-polymarket.com-5D3FD3)](https://polymarket.com)
 
 
 ![Polymarket Arbitrage Bot](image/1cfc866b-929f-47df-8075-e87b0b157c86.png)
@@ -65,9 +70,13 @@ Perfect for automating the dump-and-hedge arbitrage on Polymarket 15m markets wi
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/infraform/polymarket-arbitrage-bot.git
-cd polymarket-arbitrage-bot
+# Clone the repository (user mirror — recommended)
+git clone https://github.com/bobbinse/polymarket-arbitrage-trading-bot.git
+cd polymarket-arbitrage-trading-bot
+
+# Or clone from the organization mirror
+# git clone https://github.com/Bird-eye-pp/polymarket-arbitrage-trading-bot.git
+# cd polymarket-arbitrage-trading-bot
 
 # Install dependencies
 npm install
@@ -236,7 +245,7 @@ docker logs -f polymarket-arbitrage-bot
 
 Contributions are welcome. Please open an issue or pull request.
 
-1. Fork the repository  
+1. Fork [bobbinse/polymarket-arbitrage-trading-bot](https://github.com/bobbinse/polymarket-arbitrage-trading-bot) or [Bird-eye-pp/polymarket-arbitrage-trading-bot](https://github.com/Bird-eye-pp/polymarket-arbitrage-trading-bot)  
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)  
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
 4. Push to the branch (`git push origin feature/AmazingFeature`)  
@@ -270,4 +279,4 @@ The authors and contributors are not responsible for any financial losses, damag
 
 ---
 
-**Keywords**: Polymarket bot, Polymarket arbitrage bot, dump and hedge, 15m Up Down, prediction markets bot, Polygon, trading automation, Polymarket CLOB
+**Keywords**: Polymarket bot, Polymarket arbitrage bot, Polymarket trading bot, dump and hedge, 15m Up Down, prediction markets bot, Polygon, trading automation, Polymarket CLOB — [polymarket.com](https://polymarket.com)
