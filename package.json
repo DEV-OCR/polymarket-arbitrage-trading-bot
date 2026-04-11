@@ -4,7 +4,7 @@
   "description": "Polymarket 15m up/down dump-and-hedge trading bot (TypeScript)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/washfranca/polymarket-arbitrage-trading-bot.git"
+    "url": "https://github.com/Helix-Trading-Systems/polymarket-arbitrage-trading-bot.git"
   },
   "main": "dist/main.js",
   "scripts": {
