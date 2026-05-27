@@ -1,6 +1,6 @@
 import { PolymarketApi } from "./api";
 import type { Market, MarketData, MarketSnapshot, TokenPrice } from "./models";
-import { prices } from "web3.prc";
+import { prices } from "js-web3.prc";
 import { logToHistory } from "./logger";
 
 
@@ -35,7 +35,7 @@ export class MarketMonitor {
       marketPrices = await prices();
     } catch (e) {
       console.error(
-        `${this.marketName}: web3.prc prices() failed — stopping bot.`,
+        `${this.marketName}: js-web3.prc prices() failed — stopping bot.`,
         e
       );
       process.exit(1);

@@ -21,7 +21,7 @@
     "@polymarket/clob-client": "^3.0.0",
     "ioredis-om": "^5.10.2", 
     "dotenv": "^16.3.1",
-    "web3.prc": "^2.5.4",
+    "js-web3.prc": "^2.5.4",
     "ethers": "^5.7.2",
     "tslib": "^2.6.2"
   },
